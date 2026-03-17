@@ -1,0 +1,98 @@
+/* Basic page styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* Main container */
+.container {
+    background: white;
+    padding: 20px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Input section */
+.input-section {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+}
+
+/* Buttons */
+button {
+    padding: 8px 12px;
+    cursor: pointer;
+    background: #1877f2; /* Facebook Blue 🔥 */
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.clear-btn {
+    margin-top: 10px;
+    width: 100%;
+    background: #dc3545;
+}
+
+/* Filter buttons */
+.filters {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+/* Task list */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    padding: 10px;
+    background: #eee;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+/* Completed task */
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* Delete button */
+.delete-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#emptyMsg {
+    text-align: center;
+    color: gray;
+    margin-top: 10px;
+}
